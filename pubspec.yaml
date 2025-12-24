@@ -1,6 +1,6 @@
 name: runepriest
-description: An absolute bare-bones web app.
-version: 1.0.0
+description: A top-down RPG with sandbox elements and story-driven narrative.
+version: 0.1.0
 # repository: https://github.com/my_org/my_repo
 
 environment:

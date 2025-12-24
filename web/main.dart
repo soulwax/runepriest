@@ -1,9 +1,11 @@
+import 'dart:async';
 import 'package:web/web.dart' as web;
+import 'package:runepriest/game.dart';
 
 void main() {
-  final now = DateTime.now();
-  final element = web.document.querySelector('#output') as web.HTMLDivElement;
-  element.textContent =
-      'The time is ${now.hour}:${now.minute} '
-      'and your Dart web app is running!';
+  final canvas = web.document.querySelector('#game-canvas') as web.HTMLCanvasElement;
+  final debugInfo = web.document.querySelector('#debug-info') as web.HTMLDivElement;
+
+  final game = Game(canvas, debugInfo);
+  game.start();
 }
