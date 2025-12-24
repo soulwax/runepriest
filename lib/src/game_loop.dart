@@ -1,4 +1,5 @@
-import 'dart:async';
+// File: lib/src/game_loop.dart
+
 import 'package:web/web.dart' as web;
 
 /// Handles the game loop using requestAnimationFrame for smooth rendering
@@ -47,6 +48,6 @@ class GameLoop {
     onRender();
 
     // Schedule next frame
-    _animationFrameId = web.window.requestAnimationFrame(_tick);
+    _animationFrameId = web.window.requestAnimationFrame((num time) => _tick(time));
   }
 }

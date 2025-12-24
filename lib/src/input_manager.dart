@@ -1,3 +1,5 @@
+// File: lib/src/input_manager.dart
+
 import 'package:web/web.dart' as web;
 
 /// Manages keyboard and mouse input

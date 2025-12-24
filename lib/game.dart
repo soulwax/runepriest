@@ -1,3 +1,5 @@
+// File: lib/game.dart
+
 export 'src/game.dart';
 export 'src/game_loop.dart';
 export 'src/renderer.dart';

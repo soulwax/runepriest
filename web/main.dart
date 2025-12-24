@@ -1,3 +1,5 @@
+// File: web/main.dart
+
 import 'dart:async';
 import 'package:web/web.dart' as web;
 import 'package:runepriest/game.dart';

@@ -1,3 +1,5 @@
+// File: lib/src/renderer.dart
+
 import 'package:web/web.dart' as web;
 
 /// Handles all rendering operations to the canvas

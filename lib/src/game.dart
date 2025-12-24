@@ -1,3 +1,5 @@
+// File: lib/src/game.dart
+
 import 'dart:async';
 import 'package:web/web.dart' as web;
 import 'game_loop.dart';
